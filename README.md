@@ -3,7 +3,7 @@
 
 
 ## Instalación
-Puedes clonar este repositorio desde [<b>GitHub: alfonsochb/simple-api-rest-php</b>](https://github.com/alfonsochb/simple-api-rest-php)
+Puedes clonar este repositorio desde <b>GitHub: </b>[<b>alfonsochb/simple-api-rest-php</b>](https://github.com/alfonsochb/simple-api-rest-php)
 
 1. Debes abrir una terminal cmd o GitBach y ubicarte en el directorio raíz de tu servidor local de PHP.
 
