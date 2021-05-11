@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "24f37605-a66a-4daf-a286-bb7627b4c827",
+		"name": "Test Simple Api Rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Adicionar un registro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\" : \"Pedro Pablo\",\r\n    \"apellido\" : \"Perez Prieto\",\r\n    \"email\": \"pppp-email@example.com\",\r\n    \"edad\": 35\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/simple-api-rest-php/usuarios.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"simple-api-rest-php",
+						"usuarios.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener registros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/simple-api-rest-php/usuarios.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"simple-api-rest-php",
+						"usuarios.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener un registro por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/simple-api-rest-php/usuarios.php?id=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"simple-api-rest-php",
+						"usuarios.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar registro",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nombre\" : \"Catalina\",\r\n    \"apellido\" : \"Santamaria\",\r\n    \"email\": \"your-catal@example.com\",\r\n    \"edad\": 35\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/simple-api-rest-php/usuarios.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"simple-api-rest-php",
+						"usuarios.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar registro por id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/simple-api-rest-php/usuarios.php?id=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"simple-api-rest-php",
+						"usuarios.php"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
