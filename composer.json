@@ -1,0 +1,20 @@
+{
+    "name": "achb/simple-api-rest-php",
+    "description": "Un ejemplo sencillo de api rest PHP con escritura en archivo json.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alfonso Chávez Baquero",
+            "email": "alfonso.chb@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/"
+        }
+    }
+}

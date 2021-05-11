@@ -1,0 +1,5 @@
+/achbdocs
+/vendor
+/data/*.json
+/logs/*.log
+composer.lock
